@@ -53,14 +53,14 @@ Nada
 
 [float]
 === Código de Exemplo
-Controla a saída para um LED proporcionalmente a um valor lido de um potenciômetro.
+Controla a saída de um LED proporcionalmente a um valor lido em um potenciômetro.
 
 
 [source,arduino]
 ----
 int ledPin = 9;     // LED conectado ao pino digital 9
 int analogPin = 3;  // potenciômetro conectado ao pino analógico 3
-int val = 0;        // variável para guradar o valor lido
+int val = 0;        // variável para guardar o valor lido
 
 void setup() {
   pinMode(ledPin, OUTPUT);  // configura  o pino como saída
@@ -76,7 +76,7 @@ void loop() {
 
 [float]
 === Notas e Advertências
-As ondas PWM generadas nos pinos 5 e 6 terão duty cycles maiores que o esperado. Isso acontece porque ocorrem interações com as funções `millis()` e `delay()`, as quais compartilham o mesmo timer (temporizador) interno usado para gerar essas saídas PWM. Isso será constatado principalmente em duty-cycle baixos (ex. 0 - 10) e podem resultar em um valor de 0 não desligando completamente a saída nos pinos 5 e 6.
+As ondas PWM geradas nos pinos 5 e 6 terão duty cycles maiores que o esperado. Isso acontece porque ocorrem interações com as funções `millis()` e `delay()`, as quais compartilham o mesmo timer (temporizador) interno usado para gerar essas saídas PWM. Isso será constatado principalmente em duty-cycle baixos (ex. 0 - 10) e podem resultar em um valor de 0 não desligando completamente a saída nos pinos 5 e 6.
 
 --
 // HOW TO USE SECTION ENDS
