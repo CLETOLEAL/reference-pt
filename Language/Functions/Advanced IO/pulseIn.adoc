@@ -14,7 +14,7 @@ subCategories: [ "Advanced I/O" ]
 === Descrição
 Captura a duração de um pulso em um pino (que pode ser `HIGH` ou `LOW`). Por exemplo, se o valor `HIGH` é passado para a função, a função `pulseIn()` espera o pino ir para do estado 'LOW' para `HIGH`, começa a temporizar, então espera o pino ir para o estado `LOW` e para de temporizar. Retorna o tamanho do pulso em microssegundos ou desiste e retorna 0 se não receber nenhum pulso dentro de um tempo máximo de espera especificado.
 
-A temporização dessa função foi determinada empiricamente e irá provavelmente mostrar erros em pulsos mais longos. funciona em pulsos de 10 microssegundos a 3 minutos de duração.
+A temporização dessa função foi determinada empiricamente e irá provavelmente mostrar erros em pulsos mais longos. Funciona em pulsos de 10 microssegundos a 3 minutos de duração.
 [%hardbreaks]
 
 
