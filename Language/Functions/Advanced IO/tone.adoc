@@ -18,7 +18,7 @@ Apenas um tom pode ser gerado de cada vez. Se um tom já está tocando em um pin
 
 Uso da função `tone()` irá interferir com saída PWM nos pinos 3 e 11 (em placas diferentes do Mega).
 
-Não é possível gerar tons de freqeuência mais baixa que 31Hz. Para detalhes técnicos, veja https://github.com/bhagman/Tone#ugly-details[as notas de Brett Hagman's(Em Inglês)].
+Não é possível gerar tons de frequência mais baixa que 31Hz. Para detalhes técnicos, veja https://github.com/bhagman/Tone#ugly-details[as notas de Brett Hagman's(Em Inglês)].
 [%hardbreaks]
 
 
